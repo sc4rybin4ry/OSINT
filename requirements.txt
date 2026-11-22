@@ -1,0 +1,11 @@
+# Core runtime dependencies. For optional features install extras instead:
+#   pip install '.[server]'   # FastAPI HTTP microservice
+#   pip install '.[mcp]'      # MCP server for AI agents
+#   pip install '.[yaml]'     # YAML config files
+#   pip install '.[all]'      # everything
+aiohttp
+aiohttp-socks>=0.12.0
+beautifulsoup4
+tqdm>=4.70.0
+colorama>=0.4.6
+termcolor>=3.3.0
